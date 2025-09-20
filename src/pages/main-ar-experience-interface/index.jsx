@@ -318,12 +318,12 @@ const MainARExperienceInterface = () => {
           recordingDuration={recordingDuration}
         />
 
-        {/* Object Carousel 
+        {/* Object Carousel */}
         <ARObjectCarousel
           onObjectSelect={handleObjectSelect}
           selectedObjectId={selectedObject?.id}
           isVisible={showObjectCarousel && isSessionActive}
-        />*/}
+        />
 
         {/* Transformation Controls */}
         <ARTransformationControls
@@ -332,12 +332,12 @@ const MainARExperienceInterface = () => {
           isVisible={showTransformControls && isSessionActive}
         />
 
-        {/* Floating Action Hub */}
+        {/* Floating Action Hub 
         <FloatingActionHub
           arSessionActive={isSessionActive}
           onLibraryOpen={() => setShowQuickActions(true)}
           onSessionOpen={() => setShowQuickActions(true)}
-        />
+        />*/}
 
         {/* Quick Actions Panel */}
         <ARQuickActionsPanel
