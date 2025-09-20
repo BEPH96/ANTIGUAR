@@ -75,7 +75,6 @@ const SimplifiedGlobalHeader = ({ arSessionActive = false }) => {
             onClick={() => handleNavigation('/ar-experience-landing')}
             className="p-2"
           >
-          
           </Button>
         </div>
       </header>
