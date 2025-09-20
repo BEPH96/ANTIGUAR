@@ -9,7 +9,7 @@ const HeroSection = ({ onStartAR }) => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
           {/* Content */}
           <div className="text-center lg:text-left">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-text-primary mb-6">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl sm:text-4xl font-bold text-text-primary mb-6">
               <span className='text-5xl block'>Descubre</span>
               <span className='text-5xl block'>La Antigua Guatemala con</span>
               <span className="text-5xl text-[#9C4500] block">Realidad Aumentada</span>
@@ -56,7 +56,7 @@ const HeroSection = ({ onStartAR }) => {
               <Image
                 src="https://images.unsplash.com/photo-1592478411213-6153e4ebc696?w=600&h=400&fit=crop"
                 alt="Vista previa de experiencia AR mostrando objetos 3D interactivos"
-                className="w-full h-80 md:h-96 object-cover"
+                className="w-full h-full md:h-50 object-cover"
               />
               
               {/* AR Overlay Effect 
