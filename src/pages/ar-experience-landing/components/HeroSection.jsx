@@ -10,8 +10,8 @@ const HeroSection = ({ onStartAR }) => {
           {/* Content */}
           <div className="text-center lg:text-left">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-text-primary mb-6">
-              <span className='text-6xl block'>Descubre</span>
-              <span className='text-6xl block'>La Antigua Guatemala con</span>
+              <span className='text-5xl block'>Descubre</span>
+              <span className='text-5xl block'>La Antigua Guatemala con</span>
               <span className="text-5xl text-[#9C4500] block">Realidad Aumentada</span>
             </h1>
             <p className="text-lg md:text-xl text-text-secondary mb-8 max-w-2xl mx-auto lg:mx-0">
