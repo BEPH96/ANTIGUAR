@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Paytone, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  line-height: normal;
+  font-family: inherit;
+  margin: unset;
+}
+
+@font-face {
+  font-family: "PaytoneOne";
+  src: url("../../public/assets/fonts/PaytoneOne-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
