@@ -332,12 +332,12 @@ const MainARExperienceInterface = () => {
           isVisible={showTransformControls && isSessionActive}
         />
 
-        {/* Floating Action Hub 
+        {/* Floating Action Hub */}
         <FloatingActionHub
           arSessionActive={isSessionActive}
           onLibraryOpen={() => setShowQuickActions(true)}
           onSessionOpen={() => setShowQuickActions(true)}
-        />*/}
+        />
 
         {/* Quick Actions Panel */}
         <ARQuickActionsPanel
